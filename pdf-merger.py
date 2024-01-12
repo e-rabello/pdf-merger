@@ -8,6 +8,6 @@ merger = PdfMerger()
 for pdf in pdfs:
     merger.append(pdf)
 
-# resulting file
+# merged .pdf
 merger.write("result.pdf")
 merger.close()
